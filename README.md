@@ -23,12 +23,20 @@ To add the bot to any server, use the following link:
 
 [Click here to add the bot to your server](https://discord.com/oauth2/authorize?client_id=1340420109193187421&permissions=1689934340028480&integration_type=0&scope=bot)
 
-Make sure you have the necessary permissions (e.g., Manage Server) on the server you want to add the bot to.
+Usage
+Simply mention the bot with @askalvi followed by your query.
 
-### Step 2: Install Dependencies
-Clone the repository and install the necessary Python libraries:
+Example: @askalvi What is the capital of Germany?
 
-```bash
-git clone https://github.com/your-username/discord-bot-ai.git
-cd discord-bot-ai
-pip install -r requirements.txt
+The bot will process your query and respond in the chat.
+
+Future Improvements
+Multi-language support
+Integration with more AI models
+Enhanced response formatting
+Contributing
+Feel free to suggest improvements or report issues by opening a pull request or contacting the developer.
+
+License
+This project is open-source under the MIT License.
+
