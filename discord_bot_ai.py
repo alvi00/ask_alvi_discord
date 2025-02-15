@@ -72,10 +72,10 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith("!askalvi"):
+    if message.content.startswith("@askalvi"):
         question = message.content[9:].strip()
         if not question:
-            await message.channel.send("❌ Please provide a question. Example: `!askalvi What is AI?`")
+            await message.channel.send("❌ Please provide a question. Example: `@askalvi What is AI?`")
             return
 
         await message.channel.send("🔍 Searching for answers...")
